@@ -1,21 +1,4 @@
-.mediaViewInfo {
-	--web-view-name: Web 1920 – 1;
-	--web-view-id: Web_1920__1;
-	--web-scale-to-fit: true;
-	--web-scale-to-fit-type: fit;
-	--web-scale-on-resize: true;
-	--web-enable-deep-linking: true;
-}
-:root {
-	--web-view-ids: Web_1920__1;
-}
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	border: none;
-}
-#Web_1920__1 {
+#wrapper {
 	position: absolute;
 	width: 1920px;
 	height: 1080px;
@@ -28,7 +11,7 @@
 	--web-scale-on-resize: true;
 	--web-enable-deep-linking: true;
 }
-#SFC__Coming_soon {
+#title {
 	left: 237px;
 	top: 271px;
 	position: absolute;
@@ -42,21 +25,7 @@
 	font-size: 140px;
 	color: rgba(255,255,255,1);
 }
-#n_022_Shonan_Student_Union {
-	left: 813px;
-	top: 1000px;
-	position: absolute;
-	overflow: visible;
-	width: 295px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Hiragino Kaku Gothic ProN;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 20px;
-	color: rgba(255,255,255,1);
-}
-#n_1020__1027__ {
+#detail {
 	left: 717px;
 	top: 756px;
 	position: absolute;
@@ -68,5 +37,19 @@
 	font-style: normal;
 	font-weight: normal;
 	font-size: 30px;
+	color: rgba(255,255,255,1);
+}
+#copyright {
+	left: 813px;
+	top: 1000px;
+	position: absolute;
+	overflow: visible;
+	width: 295px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Hiragino Kaku Gothic ProN;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
 	color: rgba(255,255,255,1);
 }
